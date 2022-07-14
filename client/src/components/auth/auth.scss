@@ -1,0 +1,56 @@
+.auth {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.error {
+  text-align: center;
+}
+.auth_form {
+  padding: 30px;
+  border: 2px solid #a3a3a5;
+  position: relative;
+
+  span {
+    position: absolute;
+    font-size: x-large;
+    top: -15px;
+    padding: 0 7px;
+    border-left: 2px solid #a3a3a5;
+    border-right: 2px solid #a3a3a5;
+    background-color: #2e2d33;
+  }
+
+  label {
+    margin-right: 15px;
+    margin-left: 2px;
+    flex-grow: 1;
+  }
+
+  .input_group {
+    display: flex;
+    margin: 10px 0;
+  }
+
+  .input_group.btn {
+    margin-top: 30px;
+    flex-flow: column;
+
+    .auth_btn_send {
+      padding: 7px 0;
+      border: 2px solid #a3a3a5;
+      background-color: #2e2d33;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover {
+        background-color: white;
+        color: #2e2d33;
+        transition: 0.3s;
+      }
+    }
+  }
+}

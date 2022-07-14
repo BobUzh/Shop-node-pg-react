@@ -1,0 +1,35 @@
+.crud {
+  display: flex;
+  justify-content: space-around;
+
+  &.category {
+    position: relative;
+    top: -30px;
+  }
+
+  &.product {
+    position: relative;
+    top: -30px;
+  }
+
+  .active {
+    background-color: #fff !important;
+    color: #2e2d33 !important;
+  }
+
+  &.hidden {
+    top: -65px;
+    transition: 0.5s;
+  }
+
+  &.show {
+    top: -30px;
+    transition: 0.5s;
+    //transition-timing-function: cubic-bezier(0,2.03,.81,-0.03);
+  }
+
+  span {
+    cursor: pointer;
+    padding: 0 5px;
+  }
+}

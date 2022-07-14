@@ -1,0 +1,60 @@
+.categories {
+  margin: 50px 0;
+  padding: 30px;
+
+  .categories_form {
+
+    label {
+      margin-right: 15px;
+      margin-left: 2px;
+    }
+
+    select {
+      width: 100%;
+    }
+
+    textarea {
+      width: 100%;
+      height: 50px;
+    }
+
+    input {
+      width: 100%;
+    }
+
+    //textarea, input {
+    //  background-color: #e8e3ff;
+    //}
+
+    .row_group {
+      padding: 10px 0;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .group_item {
+      display: flex;
+      width: 100%;
+    }
+  }
+}
+
+.row_group.btn {
+  margin-top: 30px;
+  flex-flow: column;
+
+  .btn_send {
+    padding: 7px 0;
+    border: 2px solid #a3a3a5;
+    background-color: #2e2d33;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+      background-color: white;
+      color: #2e2d33;
+      transition: 0.3s;
+    }
+  }
+}
